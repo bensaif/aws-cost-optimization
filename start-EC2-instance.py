@@ -1,4 +1,8 @@
-# start a specific instance
+# In some companies, there is no need to run their EC2 instances 24/7; 
+# they require instances to operate during specific time periods, on working hours, from 8:00 AM in the morning to 5:00 PM in the evening. 
+
+# start a specific instance automatically
+
 import boto3
 
 def lambda_handler(event, context):
