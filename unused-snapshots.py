@@ -1,3 +1,8 @@
+# Problem :
+# Sometimes, developers create EC2 instances with a default attached volumes. For backup purposes, these developers also create snapshots. 
+# However, when they need to terminate it, they sometimes forget to delete the snapshots created for backup. 
+# As a result, they continue to incur costs for these unused snapshots, even though they are not actively using them.
+
 import boto3
 
 def lambda_handler(event, context):
