@@ -1,2 +1,2 @@
-# aws-cost-optimization
-AWS cost optimization project
+# Lambda Scripts
+AWS Lambda functions project
